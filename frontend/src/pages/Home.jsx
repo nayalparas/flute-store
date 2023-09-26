@@ -1,11 +1,14 @@
 import Maincarousel from "../components/Maincarousel"
-import Productscarousel from "../components/Productscarousel"
+import Productscarouselmaterial from "../components/Productscarouselmaterial"
 
 export default function Home() {
   return (
     <>
       <Maincarousel />
-      <Productscarousel />
+      <Productscarouselmaterial material='Acrylic'/>
+      <Productscarouselmaterial material='Bamboo'/>
+      <Productscarouselmaterial material='Fry Bamboo'/>
+      <Productscarouselmaterial material='PVC'/>
     </>
   )
 }
